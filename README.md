@@ -3,9 +3,8 @@
 **Name of your app** là một bài tập 1 tại môn ATBMHTTT. Bài tập yêu cầu sinh viên tạo cơ sở dữ liệu, phân quyền theo các yêu cầu.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
-* [ ] **MSSV3** Tên sinh viên 2 (tên tài khoản github)
+* [x] **1412193** Nguyễn Thái Học (NguyenThaiHoc1)
+* [x] **1412257** Tên sinh viên 2 (tên tài khoản github)
 
 ## Yêu cầu
 
