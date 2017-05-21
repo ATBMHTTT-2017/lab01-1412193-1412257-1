@@ -5,7 +5,9 @@
 Thành viên:
 * [x] **1412193** Nguyễn Thái Học (NguyenThaiHoc1)
 * [x] **1412257** Tên sinh viên 2 (vukhoa30)
+
 Báo cáo : https://github.com/NguyenThaiHoc1/BaoCao-ATBM-lab01-1412193-1412257/blob/master/README.md
+
 ## Yêu cầu
 
 Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm vào chức năng theo mẫu. Mục nào ko có MSSV là tính điểm theo nhóm. Cần sắp xếp các chức năng bên dưới theo thứ tự MSSV đã thực hiện.
