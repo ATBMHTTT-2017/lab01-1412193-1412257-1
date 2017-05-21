@@ -1,9 +1,4 @@
-(SYS)
-connect / as sysdba
-create user hr identified by 123456;
-grant create create session to hr;
-grant create to hr;
-(HR)
+--(HR)
 connect hr/123456;
 
 create table ChiNhanh (
@@ -76,8 +71,8 @@ ALTER TABLE DuAn ADD CONSTRAINT fk_duan_phongban FOREIGN KEY (phongChuTri) REFER
 ALTER TABLE DuAn ADD CONSTRAINT fk_duan_nhanvien FOREIGN KEY (TruongDA) REFERENCES NhanVien(manv);
 
 
------------------------------------------Insert---------------------------------------
-insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN001', 'The gioi hoan my', NULL);
+--------------------------------------------------------------------------------
+nsert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN001', 'The gioi hoan my', NULL);
 insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN002', 'The gioi mo', NULL);
 insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN003', 'The gioi than quen', NULL);
 insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN004', 'Vo than chi quyen', NULL);
@@ -160,13 +155,3 @@ update ChiNhanh set truongChiNhanh = '1412176' where maCN = 'CN002';
 update ChiNhanh set truongChiNhanh = '1412195' where maCN = 'CN003';
 update ChiNhanh set truongChiNhanh = '1412245' where maCN = 'CN004';
 update ChiNhanh set truongChiNhanh = '1412232' where maCN = 'CN005';
----------------------------------------------------------------------------------
-
-conn /@pdborcl as sysdba
-alter session set "_ORACLE_SCRIPT"=true;
-
-create user "1412193" identified by 1412193;
-grant create session to "1412193";
-
-grant select,insert,update,delete on hr.duan to public;
-revoke select,insert,update,delete on hr.duan from public;
