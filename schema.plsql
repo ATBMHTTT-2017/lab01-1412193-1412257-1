@@ -101,7 +101,7 @@ insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,l
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412239', 'Hoang Anh Tu', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, NULL, 120101);
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412210', 'ABXAX', 'Cao Bang', '0921321303','froutsenco@gmail.com',NULL, 'CN001', 21362);
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412211', 'ABCSXSAS', 'Dong Thap', '0921321304','fulinano@gmail.com',NULL, 'CN001', 21362);
-insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412212', 'sadasdad', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, 'CN002', 120101);
+insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412212', 'sadasdad', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, 'CN003', 120101);
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412213', 'Hllosx', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, 'CN001', 120101);
 
 
@@ -112,10 +112,10 @@ insert into PhongBan (maPhong , tenPhong ,TruongPhong ,ngayNhanChuc, soNhanVien,
 insert into PhongBan (maPhong , tenPhong ,TruongPhong ,ngayNhanChuc, soNhanVien,chiNhanh) values('PB005', 'Ke_Toan', '1412203', NULL, 10, 'CN002');
 insert into PhongBan (maPhong , tenPhong ,TruongPhong ,ngayNhanChuc, soNhanVien,chiNhanh) values('PB006', 'Ke_Hoach', '1412204', NULL, 10, 'CN003');
 
-update NhanVien set maPhog = 'PB001' where manv = '1412193' or manv = '1412257' or manv='1412200' or manv='1412205' or manv='1412205';
-update NhanVien set maPhog = 'PB002' where manv = '1412258' or manv = '1412176' or manv='1412201' or manv='1412206';
-update NhanVien set maPhog = 'PB003' where manv = '1412195' or manv = '1412186' or manv = '1412192' or manv='1412202' or manv='1412207';
-update NhanVien set maPhog = 'PB004' where manv = '1412173' or manv='1412273' or manv='1412208';
+update NhanVien set maPhog = 'PB001' where manv = '1412193' or manv = '1412257' or manv='1412200' or manv='1412205' or manv='1412205' or manv='1412210';
+update NhanVien set maPhog = 'PB002' where manv = '1412258' or manv = '1412176' or manv='1412201' or manv='1412206' or manv='1412211';
+update NhanVien set maPhog = 'PB003' where manv = '1412195' or manv = '1412186' or manv = '1412192' or manv='1412202' or manv='1412207' or manv='1412213';
+update NhanVien set maPhog = 'PB004' where manv = '1412173' or manv='1412273' or manv='1412208' or manv='1412212';
 update NhanVien set maPhog = 'PB005' where manv = '1412232' or manv='1412203' or manv='1412209';
 update NhanVien set maPhog = 'PB006' where manv = '1412245' or manv='1412204';
 
