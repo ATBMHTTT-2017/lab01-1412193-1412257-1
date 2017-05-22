@@ -4,7 +4,7 @@
 
 Thành viên:
 * [x] **1412193** Nguyễn Thái Học (NguyenThaiHoc1)
-* [x] **1412257** Tên sinh viên 2 (vukhoa30)
+* [x] **1412257** Vũ Đăng Khoa (vukhoa30)
 
 Báo cáo : https://github.com/NguyenThaiHoc1/BaoCao-ATBM-lab01-1412193-1412257/blob/master/README.md
 
