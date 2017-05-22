@@ -72,7 +72,7 @@ ALTER TABLE DuAn ADD CONSTRAINT fk_duan_nhanvien FOREIGN KEY (TruongDA) REFERENC
 
 
 --------------------------------------------------------------------------------
-nsert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN001', 'The gioi hoan my', NULL);
+insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN001', 'The gioi hoan my', NULL);
 insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN002', 'The gioi mo', NULL);
 insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN003', 'The gioi than quen', NULL);
 insert into ChiNhanh (maCN, tenCN, truongChiNhanh) values('CN004', 'Vo than chi quyen', NULL);
@@ -99,6 +99,11 @@ insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,l
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412208', 'An Duong Hoang Tu', 'Cao Bang', '0921321303','froutsenco@gmail.com',NULL, 'CN001', 21362);
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412209', 'Luong Khac Quang', 'Dong Thap', '0921321304','fulinano@gmail.com',NULL, 'CN001', 21362);
 insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412239', 'Hoang Anh Tu', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, NULL, 120101);
+insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412210', 'ABXAX', 'Cao Bang', '0921321303','froutsenco@gmail.com',NULL, 'CN001', 21362);
+insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412211', 'ABCSXSAS', 'Dong Thap', '0921321304','fulinano@gmail.com',NULL, 'CN001', 21362);
+insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412212', 'sadasdad', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, 'CN002', 120101);
+insert into NhanVien (manv ,hoTen ,diaChi ,dienThoai ,email ,maPhog, chiNhanh ,luong) values('1412213', 'Hllosx', 'DOng Nai', '091828812','hatu19@gmail.com',NULL, 'CN001', 120101);
+
 
 insert into PhongBan (maPhong , tenPhong ,TruongPhong ,ngayNhanChuc, soNhanVien,chiNhanh) values('PB001', 'Nhan_Su', '1412200', TO_DATE('17/12/2015', 'DD/MM/YYYY'), 10, 'CN001');
 insert into PhongBan (maPhong , tenPhong ,TruongPhong ,ngayNhanChuc, soNhanVien,chiNhanh) values('PB002', 'Ke_Toan', '1412201',TO_DATE('2/4/2017', 'DD/MM/YYYY'), 12, 'CN001');
